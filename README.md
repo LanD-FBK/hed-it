@@ -1,6 +1,14 @@
 # HED-IT (Human Edited Dialogues for ITalian)
 
-Welcome to the `HED-IT` repository! `HED-IT` is a large-scale Italian dataset where machine-generated dialogues between two speakers are paired with the version post-edited by humans. 
+Welcome to the `HED-IT` repository! 
+
+<p align="center">
+  <img src="img/hedit-logo.jpg" width="200" alt="hedit-logo">
+</p>
+
+
+
+`HED-IT` is a large-scale Italian dataset where machine-generated dialogues between two speakers are paired with the version post-edited by humans. 
 In this repository we release the post-edited data only.
 
 ## Dataset Overview
@@ -42,4 +50,17 @@ In the folder `dataset/all_post_edited`, we provide the following files:
 
 ## Citation 
 
-Coming soon
+Further details can be found in our paper:
+
+Daniela Occhipinti, Michele Marchi, Irene Mondella, Huiyuan Lai, Felice Dell'Orletta, Malvina Nissim, Marco Guerini, 2024. *Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models*. arXiv preprint arXiv:2406.07288
+
+```bibtex
+@misc{occhipinti2024finetuning,
+      title={Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models}, 
+      author={Daniela Occhipinti and Michele Marchi and Irene Mondella and Huiyuan Lai and Felice Dell'Orletta and Malvina Nissim and Marco Guerini},
+      year={2024},
+      eprint={2406.07288},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
