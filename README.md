@@ -55,12 +55,25 @@ Further details can be found in our paper:
 Daniela Occhipinti, Michele Marchi, Irene Mondella, Huiyuan Lai, Felice Dell'Orletta, Malvina Nissim, Marco Guerini, 2024. *Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models*. arXiv preprint arXiv:2406.07288
 
 ```bibtex
-@misc{occhipinti2024finetuning,
-      title={Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models}, 
-      author={Daniela Occhipinti and Michele Marchi and Irene Mondella and Huiyuan Lai and Felice Dell'Orletta and Malvina Nissim and Marco Guerini},
-      year={2024},
-      eprint={2406.07288},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{occhipinti-etal-2024-fine,
+    title = "Fine-tuning with {HED}-{IT}: The impact of human post-editing for dialogical language models",
+    author = "Occhipinti, Daniela  and
+      Marchi, Michele  and
+      Mondella, Irene  and
+      Lai, Huiyuan  and
+      Dell{'}Orletta, Felice  and
+      Nissim, Malvina  and
+      Guerini, Marco",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.707",
+    pages = "11892--11907",
+    abstract = "Automatic methods for generating and gathering linguistic data have proven effective for fine-tuning Language Models (LMs) in languages less resourced than English. Still, while there has been emphasis on data quantity, less attention has been given to its quality. In this work, we investigate the impact of human intervention on machine-generated data when fine-tuning dialogical models. In particular, we study (1) whether post-edited dialogues exhibit higher perceived quality compared to the originals that were automatically generated; (2) whether fine-tuning with post-edited dialogues results in noticeable differences in the generated outputs; and (3) whether post-edited dialogues influence the outcomes when considering the parameter size of the LMs. To this end we created HED-IT, a large-scale dataset where machine-generated dialogues are paired with the version post-edited by humans. Using both the edited and unedited portions of HED-IT, we fine-tuned three different sizes of an LM. Results from both human and automatic evaluation show that the different quality of training data is clearly perceived and it has an impact also on the models trained on such data. Additionally, our findings indicate that larger models are less sensitive to data quality, whereas this has a crucial impact on smaller models. These results enhance our comprehension of the impact of human intervention on training data in the development of high-quality LMs.",
 }
 ```
