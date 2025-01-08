@@ -50,9 +50,7 @@ In the folder `dataset/all_post_edited`, we provide the following files:
 
 ## Citation 
 
-Further details can be found in our paper:
-
-Daniela Occhipinti, Michele Marchi, Irene Mondella, Huiyuan Lai, Felice Dell'Orletta, Malvina Nissim, Marco Guerini, 2024. *Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models*. arXiv preprint arXiv:2406.07288
+If you use the HED-IT dataset in your research, please cite the following paper:
 
 ```bibtex
 @inproceedings{occhipinti-etal-2024-fine,
